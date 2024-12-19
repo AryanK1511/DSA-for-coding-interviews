@@ -4,7 +4,7 @@ A collection of all the code and notes that I have written to help me learn data
 
 ## Resources
 
-- [Mastering Data Structures & Algorithms using C and C++](https://www.udemy.com/share/101Woe3@OroLnO-uVoDDAS-hdNRQNQm-oV-u7tAnaQredJwoPEa0yJ6_Y15mDpi-fCYqJ19P/)
+- [Mastering Data Structures & Algorithms Specialization](https://www.coursera.org/specializations/data-structures-algorithms?action=enroll&irclickid=WY-R5SwaExyNTO%3AxIyRKFQoZUkDXyeVqlXBmTc0&irgwc=1&utm_campaign=2890636&utm_content=b2c&utm_medium=partners&utm_source=impact)
 
 ## Author
 
