@@ -4,7 +4,8 @@ A collection of all the code and notes that I have written to help me learn data
 
 ## Resources
 
-- [Data Structures & Algorithms Specialization](https://www.coursera.org/specializations/data-structures-algorithms?action=enroll&irclickid=WY-R5SwaExyNTO%3AxIyRKFQoZUkDXyeVqlXBmTc0&irgwc=1&utm_campaign=2890636&utm_content=b2c&utm_medium=partners&utm_source=impact)
+- [LeetCode's Interview Crash Course](https://leetcode.com/explore/interview/card/leetcodes-interview-crash-course-data-structures-and-algorithms/)
+- [Neetcode](https://neetcode.io)
 
 ## Author
 
