@@ -1,4 +1,4 @@
-# Data Structures and Algorithms
+# Data Structures and Algorithms for Coding Interviews
 
 A collection of all the code and notes that I have written to help me learn data structures and algorithms.
 
