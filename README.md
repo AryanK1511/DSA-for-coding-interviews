@@ -2,11 +2,13 @@
 
 A collection of all the code and notes that I have written to help me learn data structures and algorithms.
 
-## Resources
+## Table of Contents
 
-- [LeetCode's Interview Crash Course](https://leetcode.com/explore/interview/card/leetcodes-interview-crash-course-data-structures-and-algorithms/)
-- [Neetcode](https://neetcode.io)
-- [Neetcode System Design for Beginners](https://neetcode.io/courses/system-design-for-beginners)
+- [Trackers](./tracker/)
+- [Problems](./problems/)
+- [System Design](./system-design/)
+- [Concepts](./concepts/)
+- [Resources](./resources/)
 
 ## Author
 
