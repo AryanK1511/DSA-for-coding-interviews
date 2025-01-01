@@ -25,3 +25,12 @@ This is a collection of all the questions and my solutions from the Neetcode 150
 | `12`  | 3Sum                               | [Link](https://leetcode.com/problems/3sum/description/)                             | `Medium`   | [My Solution](../problems/02-two-pointers/neetcode/15.py)  |
 | `13`  | Container with Most Water          | [Link](https://leetcode.com/problems/container-with-most-water/description/)        | `Medium`   | [My Solution](../problems/02-two-pointers/neetcode/11.py)  |
 | `14`  | Trapping Rain Water                | [Link](https://leetcode.com/problems/trapping-rain-water/description/)              | `Hard`     | [My Solution](../problems/02-two-pointers/neetcode/42.py)  |
+
+## Stacks
+
+| Count | Problem                          | LeetCode Link                                                                       | Difficulty | Solution Link                                       |
+| ----- | -------------------------------- | ----------------------------------------------------------------------------------- | ---------- | --------------------------------------------------- |
+| `15`  | Valid Parentheses                | [Link](https://leetcode.com/problems/valid-parentheses/description/)                | `Easy`     | [My Solution](../problems/03-stack/neetcode/20.py)  |
+| `16`  | Min Stack                        | [Link](https://leetcode.com/problems/min-stack/description/)                        | `Medium`   | [My Solution](../problems/03-stack/neetcode/155.py) |
+| `150` | Evaluate reverse polish notation | [Link](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/) | `Medium`   | [My Solution](../problems/03-stack/neetcode/150.py) |
+| `22`  | Generate parenthesis             | [Link](https://leetcode.com/problems/generate-parentheses/description/)             | `Medium`   | [My Solution](../problems/03-stack/neetcode/22.py)  |
