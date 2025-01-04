@@ -34,3 +34,12 @@ This is a collection of all the questions and my solutions from the Neetcode 150
 | `16`  | Min Stack                        | [Link](https://leetcode.com/problems/min-stack/description/)                        | `Medium`   | [My Solution](../problems/03-stack/neetcode/155.py) |
 | `150` | Evaluate reverse polish notation | [Link](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/) | `Medium`   | [My Solution](../problems/03-stack/neetcode/150.py) |
 | `22`  | Generate parenthesis             | [Link](https://leetcode.com/problems/generate-parentheses/description/)             | `Medium`   | [My Solution](../problems/03-stack/neetcode/22.py)  |
+
+## Binary Search
+
+| Count | Problem                                  | LeetCode Link                                                                           | Difficulty | Solution Link                                               |
+| ----- | ---------------------------------------- | --------------------------------------------------------------------------------------- | ---------- | ----------------------------------------------------------- |
+| `704` | Binary Search                            | [Link](https://leetcode.com/problems/binary-search/description/)                        | `Easy`     | [My Solution](../problems/04-binary-search/neetcode/704.py) |
+| `74`  | Search a 2D Matrix                       | [Link](https://leetcode.com/problems/search-a-2d-matrix/description/)                   | `Medium`   | [My Solution](../problems/04-binary-search/neetcode/74.py)  |
+| `875` | Koko Eating Bananas `*`                  | [Link](https://leetcode.com/problems/koko-eating-bananas/description/)                  | `Medium`   | [My Solution](../problems/04-binary-search/neetcode/875.py) |
+| `153` | Find Minimum in Rotated Sorted Array `*` | [Link](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/) | `Medium`   | [My Solution](../problems/04-binary-search/neetcode/875.py) |
