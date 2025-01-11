@@ -32,14 +32,22 @@ This is a collection of all the questions and my solutions from the Neetcode 150
 | ----- | -------------------------------- | ----------------------------------------------------------------------------------- | ---------- | --------------------------------------------------- |
 | `15`  | Valid Parentheses                | [Link](https://leetcode.com/problems/valid-parentheses/description/)                | `Easy`     | [My Solution](../problems/03-stack/neetcode/20.py)  |
 | `16`  | Min Stack                        | [Link](https://leetcode.com/problems/min-stack/description/)                        | `Medium`   | [My Solution](../problems/03-stack/neetcode/155.py) |
-| `150` | Evaluate reverse polish notation | [Link](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/) | `Medium`   | [My Solution](../problems/03-stack/neetcode/150.py) |
-| `22`  | Generate parenthesis             | [Link](https://leetcode.com/problems/generate-parentheses/description/)             | `Medium`   | [My Solution](../problems/03-stack/neetcode/22.py)  |
+| `17`  | Evaluate reverse polish notation | [Link](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/) | `Medium`   | [My Solution](../problems/03-stack/neetcode/150.py) |
+| `18`  | Generate parenthesis             | [Link](https://leetcode.com/problems/generate-parentheses/description/)             | `Medium`   | [My Solution](../problems/03-stack/neetcode/22.py)  |
 
 ## Binary Search
 
 | Count | Problem                                  | LeetCode Link                                                                           | Difficulty | Solution Link                                               |
 | ----- | ---------------------------------------- | --------------------------------------------------------------------------------------- | ---------- | ----------------------------------------------------------- |
-| `704` | Binary Search                            | [Link](https://leetcode.com/problems/binary-search/description/)                        | `Easy`     | [My Solution](../problems/04-binary-search/neetcode/704.py) |
-| `74`  | Search a 2D Matrix                       | [Link](https://leetcode.com/problems/search-a-2d-matrix/description/)                   | `Medium`   | [My Solution](../problems/04-binary-search/neetcode/74.py)  |
-| `875` | Koko Eating Bananas `*`                  | [Link](https://leetcode.com/problems/koko-eating-bananas/description/)                  | `Medium`   | [My Solution](../problems/04-binary-search/neetcode/875.py) |
-| `153` | Find Minimum in Rotated Sorted Array `*` | [Link](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/) | `Medium`   | [My Solution](../problems/04-binary-search/neetcode/875.py) |
+| `19`  | Binary Search                            | [Link](https://leetcode.com/problems/binary-search/description/)                        | `Easy`     | [My Solution](../problems/04-binary-search/neetcode/704.py) |
+| `20`  | Search a 2D Matrix                       | [Link](https://leetcode.com/problems/search-a-2d-matrix/description/)                   | `Medium`   | [My Solution](../problems/04-binary-search/neetcode/74.py)  |
+| `21`  | Koko Eating Bananas `*`                  | [Link](https://leetcode.com/problems/koko-eating-bananas/description/)                  | `Medium`   | [My Solution](../problems/04-binary-search/neetcode/875.py) |
+| `22`  | Find Minimum in Rotated Sorted Array `*` | [Link](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/) | `Medium`   | [My Solution](../problems/04-binary-search/neetcode/875.py) |
+
+## Binary Tree
+
+| Count | Problem                       | LeetCode Link                                                                   | Difficulty | Solution Link                                             |
+| ----- | ----------------------------- | ------------------------------------------------------------------------------- | ---------- | --------------------------------------------------------- |
+| `23`  | Invert Binary Tree            | [Link](https://leetcode.com/problems/invert-binary-tree/description/)           | `Easy`     | [My Solution](../problems/05-binary-tree/neetcode/226.py) |
+| `24`  | Maximum Depth of Binary Tree  | [Link](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/) | `Easy`     | [My Solution](../problems/05-binary-tree/neetcode/104.py) |
+| `25`  | Diameter of a Binary Tree `*` | [Link](https://leetcode.com/problems/diameter-of-binary-tree/description/)      | `Easy`     | [My Solution](../problems/05-binary-tree/neetcode/543.py) |

@@ -2,6 +2,10 @@
 
 This is a one-stop shop for all the notes for the problems that I have solved and found to be tricky.
 
+## 543. Diameter of a tree `Easy`
+
+<https://leetcode.com/problems/diameter-of-binary-tree/description/>
+
 ## 112. Path Sum `Easy`
 
 <https://leetcode.com/problems/path-sum/description/>
