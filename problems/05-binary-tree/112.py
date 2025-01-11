@@ -10,12 +10,18 @@ class TreeNode:
 
 class Solution:
     def hasPathSum(self, root: Optional[TreeNode], targetSum: int) -> bool:
-        return self.helper(root, 0, targetSum)
+        def dfs(node: Optional[TreeNode], current_sum: int) -> bool:
+            if not node:
+                return False
 
-    def helper(self, root: Optional[TreeNode], sum: int, targetSum: int) -> bool:
-        if not root:
-            return sum
-        self.helper(root.left, sum + root.val)
-        self.helper(
-            root.right,
-        )
+            current_sum += node.val
+
+            if not node.left and not node.right:
+                return current_sum == targetSum
+
+            left_result = dfs(node.left, current_sum)
+            right_result = dfs(node.right, current_sum)
+
+            return left_result or right_result
+
+        return dfs(root, 0)
