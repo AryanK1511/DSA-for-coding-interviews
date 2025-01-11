@@ -10,6 +10,8 @@
   - [Stack](./problems/03-stack/)
   - [Binary Search](./problems/04-binary-search/)
   - [Binary Trees](./problems/05-binary-tree/)
+  - [Linked Lists](./problems/06-linked-lists/)
+  - [Sliding Window](./problems/07-sliding-window/)
 - [Problem Notes](./notes/problems/)
 - [Trackers](./tracker/)
   - [Neetcode 150](./tracker/neetcode150.md)

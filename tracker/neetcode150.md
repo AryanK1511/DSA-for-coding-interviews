@@ -56,11 +56,13 @@ This is a collection of all the questions and my solutions from the Neetcode 150
 
 | Count | Problem                | LeetCode Link                                                             | Difficulty | Solution Link                                              |
 | ----- | ---------------------- | ------------------------------------------------------------------------- | ---------- | ---------------------------------------------------------- |
-| `206` | Reverse Linked Lists   | [Link](https://leetcode.com/problems/reverse-linked-list/description/)    | `Easy`     | [My Solution](../problems/06-linked-lists/neetcode/206.py) |
-| `21`  | Merge Two Sorted Lists | [Link](https://leetcode.com/problems/merge-two-sorted-lists/description/) | `Easy`     | [My Solution](../problems/06-linked-lists/neetcode/21.py)  |
+| `26`  | Reverse Linked Lists   | [Link](https://leetcode.com/problems/reverse-linked-list/description/)    | `Easy`     | [My Solution](../problems/06-linked-lists/neetcode/206.py) |
+| `27`  | Merge Two Sorted Lists | [Link](https://leetcode.com/problems/merge-two-sorted-lists/description/) | `Easy`     | [My Solution](../problems/06-linked-lists/neetcode/21.py)  |
 
 ## Sliding Window
 
-| Count | Problem                         | LeetCode Link                                                                      | Difficulty | Solution Link                                                |
-| ----- | ------------------------------- | ---------------------------------------------------------------------------------- | ---------- | ------------------------------------------------------------ |
-| `121` | Best Time to Buy and Sell Stock | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | `Easy`     | [My Solution](../problems/07-sliding-window/neetcode/121.py) |
+| Count | Problem                                        | LeetCode Link                                                                              | Difficulty | Solution Link                                                |
+| ----- | ---------------------------------------------- | ------------------------------------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
+| `28`  | Best Time to Buy and Sell Stock                | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)         | `Easy`     | [My Solution](../problems/07-sliding-window/neetcode/121.py) |
+| `29`  | Longest Substring without repeating characters | [Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/)      | `Easy`     | [My Solution](../problems/07-sliding-window/neetcode/3.py)   |
+| `30`  | Longest Repeating Character Replacement        | [Link](https://leetcode.com/problems/longest-repeating-character-replacement/description/) | `Easy`     | [My Solution](../problems/07-sliding-window/neetcode/424.py) |
