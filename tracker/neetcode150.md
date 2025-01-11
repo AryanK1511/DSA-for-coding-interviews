@@ -51,3 +51,16 @@ This is a collection of all the questions and my solutions from the Neetcode 150
 | `23`  | Invert Binary Tree            | [Link](https://leetcode.com/problems/invert-binary-tree/description/)           | `Easy`     | [My Solution](../problems/05-binary-tree/neetcode/226.py) |
 | `24`  | Maximum Depth of Binary Tree  | [Link](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/) | `Easy`     | [My Solution](../problems/05-binary-tree/neetcode/104.py) |
 | `25`  | Diameter of a Binary Tree `*` | [Link](https://leetcode.com/problems/diameter-of-binary-tree/description/)      | `Easy`     | [My Solution](../problems/05-binary-tree/neetcode/543.py) |
+
+## Linked Lists
+
+| Count | Problem                | LeetCode Link                                                             | Difficulty | Solution Link                                              |
+| ----- | ---------------------- | ------------------------------------------------------------------------- | ---------- | ---------------------------------------------------------- |
+| `206` | Reverse Linked Lists   | [Link](https://leetcode.com/problems/reverse-linked-list/description/)    | `Easy`     | [My Solution](../problems/06-linked-lists/neetcode/206.py) |
+| `21`  | Merge Two Sorted Lists | [Link](https://leetcode.com/problems/merge-two-sorted-lists/description/) | `Easy`     | [My Solution](../problems/06-linked-lists/neetcode/21.py)  |
+
+## Sliding Window
+
+| Count | Problem                         | LeetCode Link                                                                      | Difficulty | Solution Link                                                |
+| ----- | ------------------------------- | ---------------------------------------------------------------------------------- | ---------- | ------------------------------------------------------------ |
+| `121` | Best Time to Buy and Sell Stock | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | `Easy`     | [My Solution](../problems/07-sliding-window/neetcode/121.py) |
