@@ -2,6 +2,55 @@
 
 This is a one-stop shop for all the notes for the problems that I have solved and found to be tricky.
 
+## 567. Permutation in a String `Medium`
+
+<https://leetcode.com/problems/permutation-in-string/description/>
+
+```python
+def checkInclusion(self, s1: str, s2: str) -> bool:
+        if len(s1) > len(s2):
+            return False
+
+        s1_count = {}
+        for char in s1:
+            s1_count[char] = s1_count.get(char, 0) + 1
+
+        window_count = {}
+        left = 0
+
+        for right in range(len(s2)):
+            char = s2[right]
+            window_count[char] = window_count.get(char, 0) + 1
+
+            if right - left + 1 > len(s1):
+                left_char = s2[left]
+                window_count[left_char] -= 1
+                if window_count[left_char] == 0:
+                    del window_count[left_char]
+                left += 1
+
+            if window_count == s1_count:
+                return True
+
+        return False
+```
+
+First off, as soon as you see the word substring, it means it is likely a sliding window question. Now, question is how to make this into a sliding window.
+
+1. One thing to cross off at the very start is that if `s1` is greater in length than `s2`, that for sure will make the substring impossible to create.
+2. Next, we create a hashmap of `s1` that counts all elements. Now, the only thing left is to create a hashmap for each window of `s2` and see if it is the same as the one we created for `s1`.
+3. The check here would be that our hashmap cannot be of more length than the one we created for `s1`.
+
+## 424. Longest Repeating Character Replacement `Medium`
+
+<https://leetcode.com/problems/longest-repeating-character-replacement/description/>
+
+1. Use `left` and `right` pointers to define a sliding window over the string.
+2. Keep a count of chars in the window using a hashmap
+3. Count the most frequent character in the window using max function everytime
+4. If `window_size - max_freq` exceeds `k`, shrink the window.
+5. Calculate the max window
+
 ## 2116. Check if a Parentheses String Can Be Valid `Medium`
 
 <https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/description/>
