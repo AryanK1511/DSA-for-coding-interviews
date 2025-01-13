@@ -4,21 +4,13 @@
 
 ## Table of Contents
 
-- [Problems](./problems/)
-  - [Arrays](./problems/01-arrays/)
-  - [Two Pointers](./problems/02-two-pointers/)
-  - [Stack](./problems/03-stack/)
-  - [Binary Search](./problems/04-binary-search/)
-  - [Binary Trees](./problems/05-binary-tree/)
-  - [Linked Lists](./problems/06-linked-lists/)
-  - [Sliding Window](./problems/07-sliding-window/)
-- [Problem Notes](./notes/problems/)
-- [Trackers](./tracker/)
-  - [Neetcode 150](./tracker/neetcode150.md)
-  - [Leetcode Rank](./tracker/leetcode_rank.md)
-- [System Design](./system-design/)
-- [Concepts](./concepts/)
-- [Resources](./resources/)
+1. [Problems](./problems/)
+2. [Concepts](./concepts/)
+3. [Notes for specific problems](./notes/problems/)
+4. [Leetcode Streak](./leetstreak/)
+5. [System Design](./system-design/)
+6. [Trackers](./tracker/)
+7. [Resources](./resources/)
 
 ## Author
 
