@@ -32,9 +32,18 @@ This directory contains all the notes that I took while learning system design.
 
 ### Interview Prep
 
-| Sr No. | Topic           | Link to Notes                               |
-| ------ | --------------- | ------------------------------------------- |
-| `1`    | How to Approach | [Link](./interview-prep/how_to_approach.md) |
+| Sr No. | Topic                              | Link to Notes                               |
+| ------ | ---------------------------------- | ------------------------------------------- |
+| `1`    | How to Approach                    | [Link](./interview-prep/how_to_approach.md) |
+| `2`    | Design a Rate Limiter              | [Link](./interview-prep/rate-limiter.md)    |
+| `3`    | Design TinyUrl                     | [Link](./interview-prep/tinyurl.md)         |
+| `4`    | Design Twitter                     | [Link](./interview-prep/twitter.md)         |
+| `5`    | Design Discord                     | [Link](./interview-prep/discord.md)         |
+| `6`    | Design YouTube                     | [Link](./interview-prep/youtube.md)         |
+| `7`    | Design Google Drive                | [Link](./interview-prep/google-drive.md)    |
+| `8`    | Design Google Maps                 | [Link](./interview-prep/google-maps.md)     |
+| `9`    | Design a Key-Value Store           | [Link](./interview-prep/key-value.md)       |
+| `10`   | Design a Distributed Message Queue | [Link](./interview-prep/message-queue.md)   |
 
 ## Author
 
