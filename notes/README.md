@@ -2,6 +2,38 @@
 
 This is a one-stop shop for all the notes for the problems that I have solved and found to be tricky.
 
+## 2657. Find the Prefix Common Array of Two Arrays `Medium`
+
+<https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/description/?envType=daily-question&envId=2025-01-14>
+
+```python
+class Solution:
+    def findThePrefixCommonArray(self, A: List[int], B: List[int]) -> List[int]:
+        n = len(A)
+        prefix_common_array = [0 for _ in range(n)]
+        frequency = [0 for _ in range(n)]
+        common_count = 0
+
+        for index in range(n):
+            frequency[A[index] - 1] += 1
+
+            if frequency[A[index] - 1] == 2:
+                common_count += 1
+
+            frequency[B[index] - 1] += 1
+
+            if frequency[B[index] - 1] == 2:
+                common_count += 1
+
+            prefix_common_array[index] = common_count
+
+        return prefix_common_array
+```
+
+- We use something called a frequency array. The point of this would be to track the frequency of numbers across both the arrays.
+- So basically the key here is knowing that the arrays A and B are permutations which means they can be treated as indices. So A[index] is 1 lets say you can store the count for 1 at freq_arr[1]. Everytime you increment the count. You just check if it is two since if it is then that means that it was common and you increment a counter.
+- You append this counter to the prefix common array and then return the prefix common array.
+
 ## 567. Permutation in a String `Medium`
 
 <https://leetcode.com/problems/permutation-in-string/description/>
