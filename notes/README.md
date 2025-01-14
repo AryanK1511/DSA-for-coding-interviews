@@ -2,6 +2,36 @@
 
 This is a one-stop shop for all the notes for the problems that I have solved and found to be tricky.
 
+## 875. Koko Eating Bananas `Medium`
+
+<https://leetcode.com/problems/koko-eating-bananas/description/>
+
+```python
+class Solution:
+    def minEatingSpeed(self, piles: List[int], h: int) -> int:
+        left, right = 1, max(piles)
+        ans = 0
+
+        def ableToEat(num):
+            totalHours = 0
+            for pile in piles:
+                totalHours += math.ceil(pile / num)
+
+            return totalHours <= h
+
+        while left <= right:
+            mid = left + ((right - left) // 2)
+            if ableToEat(mid):
+                ans = mid
+                right = mid - 1
+            else:
+                left = mid + 1
+
+        return ans
+```
+
+So the intuition behind this is that think of a range from 1 to the max num in the piles array. Now we could go from 1 all the way to 11 and check whether it is possible to eat the bananas or not but a better approach is to use binary search to go through the range. Check if the mid range is enough to eact bananas in time or not. If yes, since we are aiming for the minimum, keep on going until you reach a point where you do not find anything and use the last recorded minimum value that you had.
+
 ## 2657. Find the Prefix Common Array of Two Arrays `Medium`
 
 <https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/description/?envType=daily-question&envId=2025-01-14>
