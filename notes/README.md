@@ -2,6 +2,35 @@
 
 This is a one-stop shop for all the notes for the problems that I have solved and found to be tricky.
 
+## 424. Longest Repeating Character Replacement `Medium`
+
+<https://leetcode.com/problems/longest-repeating-character-replacement/description/>
+
+```python
+class Solution:
+    def characterReplacement(self, s: str, k: int) -> int:
+        hm = {}
+        left, maxFreq, ans = 0, 0, 0
+
+        for right in range(len(s)):
+            hm[s[right]] = hm.get(s[right], 0) + 1
+            maxFreq = max(maxFreq, hm[s[right]])
+
+            while ((right - left + 1) - maxFreq) > k:
+                hm[s[left]] = hm.get(s[left], 0) - 1
+                left += 1
+
+            ans = max(ans, right - left + 1)
+
+        return ans
+```
+
+The main intuition for this question has to do with using the element with the maximum frequency in the window as an offset. This is what I mean by that:
+
+- Let u say we have a window `[B, C, A, A]` here the algorithm for deciding whether you can replace `k` characters to get same elements would be `Window Size - Max Freq Element <= k`. If the above formula holds true, we can caluclate the max.
+- In order to keep track of the max freqeuncy we will keep a hashmap where we will track the number of times the element occurs in a particular window.
+- The most crucial part is understanding the algorithm behind how subtracting the max freq element from the window size would give you the less frequent elements and than you see how many you have to replace in order to make them the same as the max occurring elem.
+
 ## 875. Koko Eating Bananas `Medium`
 
 <https://leetcode.com/problems/koko-eating-bananas/description/>
