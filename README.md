@@ -6,11 +6,12 @@
 
 1. [Problems](./problems/)
 2. [Concepts](./concepts/)
-3. [Notes for specific problems](./notes/problems/)
-4. [Leetcode Streak](./leetstreak/)
-5. [System Design](./system-design/)
-6. [Trackers](./tracker/)
-7. [Resources](./resources/)
+3. [Object Oriented Programming](./object-oriented-programming/)
+4. [Notes for specific problems](./notes/problems/)
+5. [Leetcode Streak](./leetstreak/)
+6. [System Design](./system-design/)
+7. [Trackers](./tracker/)
+8. [Resources](./resources/)
 
 ## Author
 
