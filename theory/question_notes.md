@@ -2,6 +2,27 @@
 
 This is a one-stop shop for all the notes for the problems that I have solved and found to be tricky.
 
+## 235. Lowest Common Ancestor of a Binary Search Tree
+
+<https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/>
+
+```python
+class Solution:
+    def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
+        if not root or not p or not q:
+            return None
+        # Check if both values are smaller than the root
+        if max(p.val, q.val) < root.val:
+            return self.lowestCommonAncestor(root.left, p, q)
+        # Check if both are greater than the root
+        elif min(p.val, q.val) > root.val:
+            return self.lowestCommonAncestor(root.right, p, q)
+        else:
+            return root
+```
+
+The most important thing to notice for this question is that this is a binary search tree and not a regular one which means that if we have p and q, we dont have to check the whole tree. If both are greater than the root then we look at the right side if both are smaller then we look at the left side. If none that means the current node is the LCA since it means that p and q are in different subtrees or p or q is equal to the value of the current node.
+
 ## 1026. Maximum Difference Between Node and Ancestor
 
 <https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/description/>
