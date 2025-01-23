@@ -5,13 +5,18 @@
 ## Table of Contents
 
 1. [Problems](./problems/)
-2. [Concepts](./concepts/)
+2. [Theory](./theory/)
 3. [Object Oriented Programming](./object-oriented-programming/)
-4. [Notes for specific problems](./notes/problems/)
+4. [System Design](./system-design/)
 5. [Leetcode Streak](./leetstreak/)
-6. [System Design](./system-design/)
-7. [Trackers](./tracker/)
-8. [Resources](./resources/)
+6. [Trackers](./tracker/)
+
+## Resources
+
+- [LeetCode's Interview Crash Course](https://leetcode.com/explore/interview/card/leetcodes-interview-crash-course-data-structures-and-algorithms/)
+- [Neetcode](https://neetcode.io)
+- [Neetcode System Design for Beginners](https://neetcode.io/courses/system-design-for-beginners)
+- [MIT ICW - Introduction to Algorithms](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/syllabus/)
 
 ## Author
 
