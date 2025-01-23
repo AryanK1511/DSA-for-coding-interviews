@@ -2,6 +2,78 @@
 
 This is a one-stop shop for all the notes for the problems that I have solved and found to be tricky.
 
+## 19. Remove Nth node from End of list
+
+<https://leetcode.com/problems/remove-nth-node-from-end-of-list/submissions/1515708239/>
+
+```python
+def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
+        dummy = ListNode(0)
+        dummy.next = head
+        first = dummy
+        second = dummy
+
+        for _ in range(n + 1):
+            first = first.next
+
+        while first:
+            first = first.next
+            second = second.next
+
+        second.next = second.next.next
+
+        return dummy.next
+```
+
+This will be solved just like a sliding window in python.
+
+- Create a dummy pointer
+- Forward one pointer to n
+- Maintain this window until forward pointer reaches end
+- Now remove the next element of the backward pointer
+
+## 143. Reorder List `Medium`
+
+<https://leetcode.com/problems/reorder-list/description/>
+
+```python
+def reorderList(self, head: Optional[ListNode]) -> None:
+        if not head:
+            return None
+
+        slow, fast = head, head
+
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+
+        second = slow.next
+        slow.next = None
+        prev = None
+
+        while second:
+            tmp = second.next
+            second.next = prev
+            prev = second
+            second = tmp
+
+        # Merge the two halves of the list
+        first, second = head, prev
+
+        while second:
+            tmp1, tmp2 = first.next, second.next
+            first.next = second
+            second.next = tmp1
+            first, second = tmp1, tmp2
+
+        return None
+```
+
+1. Find the middle part of the list
+2. Split the list into two parts
+3. Reverse the second part
+4. Merge the two lists
+
 ## 424. Longest Repeating Character Replacement `Medium`
 
 <https://leetcode.com/problems/longest-repeating-character-replacement/description/>
