@@ -1,5 +1,15 @@
 # Some Common Patterns and Techniques to solve questions
 
+## Binary Trees
+
+### Using DFS vs BFS
+
+When you need to visit each node, use DFS. BFS makes sense if you need to handle the nodes according to their level. DFS is easier to implement with less code so choose DFS when it doesn't matter if you use BFS or DFS.
+
+The main disadvantage of DFS is that you could end up wasting a lot of time looking for a value. Let's say that you had a huge tree, and you were looking for a value that is stored in the root's right child. If you do DFS prioritizing left before right, then you will search the entire left subtree, which could be hundreds of thousands if not millions of operations. Meanwhile, the node is literally one operation away from the root. The main disadvantage of BFS is that if the node you're searching for is near the bottom, then you will waste a lot of time searching through all the levels to reach the bottom.
+
+DFS uses space linear with the height of the tree. BFS uses space linear with the level that has the most nodes. In a perfect binary tree, DFS would use O(logn) whereas BFS would use O(n)
+
 ## Arrays
 
 ### Two pointers

@@ -2,6 +2,47 @@
 
 This is a one-stop shop for all the notes for the problems that I have solved and found to be tricky.
 
+## 1026. Maximum Difference Between Node and Ancestor
+
+<https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/description/>
+
+```python
+from typing import Optional
+
+
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+
+
+class Solution:
+    def maxAncestorDiff(self, root: Optional[TreeNode]) -> int:
+        if not root:
+            return 0
+
+        maxValueForV = 0
+
+        def dfs(curr, currMax, currMin):
+            nonlocal maxValueForV
+            if not curr:
+                return
+
+            maxValueForV = max(
+                maxValueForV, abs(currMax - curr.val), abs(currMin - curr.val)
+            )
+            currMax, currMin = max(currMax, curr.val), min(currMin, curr.val)
+            dfs(curr.left, currMax, currMin)
+            dfs(curr.right, currMax, currMin)
+
+        dfs(root, root.val, root.val)
+        return maxValueForV
+
+```
+
+The intuition for this question is that for each node that you are on, you need to have the minimum up until that point from the root and also the maximum. Min and max because of the absolute clause. So now that you have both you will calculate the max difference and keep storing it in a global variable for every node that you encounter. You will have a helper that will help you keep track of the local variables maximum and minimum basically and these local variables will help you to calculate the min and max at each point and then pass it to the next function.
+
 ## 19. Remove Nth node from End of list
 
 <https://leetcode.com/problems/remove-nth-node-from-end-of-list/submissions/1515708239/>

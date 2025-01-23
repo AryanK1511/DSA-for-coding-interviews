@@ -13,3 +13,4 @@ This directory contains the notes that I took while learning some DSA concepts.
 
 - [Problem specific notes](./question_notes.md)
 - [Different patterns of questions that are asked in interviews](./question_types.md)
+- [Code Templates](./code_templates.md)
